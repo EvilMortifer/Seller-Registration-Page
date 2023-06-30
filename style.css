@@ -133,7 +133,7 @@ body{
     justify-content: center;
 }
 .join{
-    width:220%;
+    width:100%;
     background-color: #E8962F;
 }
 .join:hover{
@@ -296,7 +296,7 @@ margin-left: 100px;
     background-color: #4c4a49;
     margin-bottom: 100px;
 }
-.cards{
+.akcard{
     width: 50vh;
     height: auto;
     background-color: rgb(255, 166, 0);
@@ -344,7 +344,7 @@ margin-left: 100px;
     font-size: 1rem;
     font-weight: 600;
 }
-.cards ul {
+.akcard ul {
     display: flex;
     list-style: none;
     margin:20px;
@@ -353,7 +353,7 @@ margin-left: 100px;
     justify-content: center;
 }
 
-.cards ul li {
+.akcard ul li {
     padding-left: 4px;
     align-items: center;
     justify-content: center;
@@ -544,12 +544,12 @@ margin-left: 100px;
         flex-direction: column;
         overflow: hidden;
     }
-    .cards{
+    .akcard{
         margin-bottom: 80px;
         width: 100%;
         height: auto;
     }
-    .cards:nth-child(3){
+    .akcard:nth-child(3){
         display: none;
     }
     .akreview{
@@ -773,4 +773,130 @@ margin-left: 100px;
         -ms-transition: 1.5s;
         -o-transition: 1.5s;
 }
+}
+
+
+  
+  .akcontainer7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 4px 16px;
+  }
+  
+  #cards-container {
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 99999px;
+  }
+  
+  .card {
+    /* Add shadows to create the "card" effect */
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 235px;
+    margin: 15px 7.5px;
+  }
+  
+  .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .card .container{
+    padding: 20px;
+    background-color: #000000;
+  }
+  .card .container h4{
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    font-weight: 200 !important;
+  }
+  .card .img {
+    max-width: 220px;
+    height: 220px;
+    display: inline-block;
+  }
+  
+  #slide-left-container,
+  #slide-right-container {
+    display: none;
+  }
+  
+  #slide-left-container.active,
+  #slide-right-container.active {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .slide-left,
+  .slide-right {
+    border-color: #fff;
+    border-style: solid;
+    height: 20px;
+    width: 20px;
+    margin-top: 30%;
+  }
+  
+  .slide-left {
+    border-width: 4px 0 0 4px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-left: 40%;
+  }
+  
+  .slide-right {
+    border-width: 4px 4px 0 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 22%;
+  }
+  .aktextheaderbrand{
+    padding-left: 35px;
+    color: #f1f1f1;
+    margin-top: 100px;
+  }
+  .aktextheaderbrand h2{
+    font-size: 40px;
+  }
+  .aktextheaderbrand h3{
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .akviewproduct{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #E8962F;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+.akviewproduct:hover{
+    background-color: #dcdbda;
+    transition: 0.5 s;
+    -webkit-transition: 0.5 s;
+    -moz-transition: 0.5 s;
+    -ms-transition: 0.5 s;
+    -o-transition: 0.5 s;
 }
