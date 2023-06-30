@@ -424,7 +424,11 @@ margin-left: 100px;
     /*Top slider */
     .con{
         flex-direction: column;
+        justify-content: left;
+        margin-left: 0px;
+        width: 90%;
         height: 700px !important;
+        overflow: hidden;
     }
     .box:nth-child(6n+5){
         display: none;
@@ -437,7 +441,15 @@ margin-left: 100px;
         -ms-transition: ease-in 0.7s !important;
         -o-transition: ease-in 0.7s !important;
 }
+.con2{
+    margin-bottom: 100px;
+    justify-content: center;
 
+}
+
+    .akbgimg img{
+        width: 66vh;
+    }
     .akcontainer5{
         flex-direction: column;
         flex: 7 !important;
@@ -448,7 +460,7 @@ margin-left: 100px;
         border: 5px solid #E8962F;
         background-color: transparent;
         color: #f1f1f1;
-        width: 70%;
+        width: 85%;
         border-radius: 100px;
         padding: 14px;
     }
@@ -472,6 +484,7 @@ margin-left: 100px;
         flex-direction: column;
         flex: 1;
         font-size: 14px;
+        overflow: hidden;
     }
     .akformheading{
         text-align: left;
@@ -512,11 +525,15 @@ margin-left: 100px;
         padding-bottom: 20px;
     }
     .akcontainer4{
+        padding: 60px;
+        width: 72%;
+        overflow: hidden;
         flex-direction: column;
         overflow: hidden;
     }
     .cards{
         margin-bottom: 80px;
+        width: 100%;
         height: auto;
     }
     .cards:nth-child(3){
