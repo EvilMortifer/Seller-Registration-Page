@@ -132,11 +132,11 @@ body{
     align-items: center;
     justify-content: center;
 }
-.join{
+.akjoin{
     width:100%;
     background-color: #E8962F;
 }
-.join:hover{
+.akjoin:hover{
     background: #f1ba20 !important;
     transition: 0.2s;
     cursor: pointer;
@@ -189,65 +189,6 @@ body{
     background-color: #363433;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
 }
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 100%);
-    overflow: hidden;
-    scroll-behavior: smooth;
-    
-   }
-   .wrapper section {
-    width: 100%;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    margin: 10px 0;
-
-   }
-   .wrapper section .item {
-    padding:2px;
-    padding-bottom: 100px;
-    transition: 250ms all;
-    -webkit-transition: 250ms all;
-    -moz-transition: 250ms all;
-    -ms-transition: 250ms all;
-    -o-transition: 250ms all;
-}
-.wrapper section .item:nth-of-type(1){
-margin-left: 100px;
-}
-    .item>h3{
-    font-size: 3vh;
-    font-weight: bolder;
-}       
-    .brandlogo{
-        height: 300px;
-        width: 300px;
-}
-   .wrapper section a {
-    position: absolute;
-    text-decoration: none;
-    font-size: 6em;
-    width: 10px;
-    padding: 40px;
-    text-align: center;
-    z-index: 1;
-   }
-   .wrapper section a:nth-of-type(1) {
-    top: 0;
-    bottom: 0px;
-    left: 0;
-    color: #E8962F;
-    position: absolute;
-
-   }
-   .wrapper section a:nth-of-type(2) {
-    top: 0;
-    bottom: 0;
-    right: 0;
-    color:#E8962F;
-    
-   }
    .productbtn{
     margin-top: 50px;
     width: 88%;
@@ -358,7 +299,7 @@ margin-left: 100px;
     align-items: center;
     justify-content: center;
 }
-.star{
+.akstar{
     color: #0f0f0f;
 }
 .inactive{
@@ -403,7 +344,7 @@ margin-left: 100px;
 .akc1{
     margin-right: 200px;
 }
-.column{
+.akcolumn{
     margin-bottom: 17px;
 }
 .akformheading{
@@ -423,6 +364,24 @@ margin-left: 100px;
     font-size: 1.3rem;
     font-weight: 500;
 }
+.country{
+    width: 180% !important;
+}
+.akcity,
+.akstate {
+    width: 550% !important;
+}
+.countryOption{
+    color: #000000 !important;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -473,7 +432,7 @@ margin-left: 100px;
         border: 5px solid #E8962F;
         background-color: transparent;
         color: #f1f1f1;
-        width: 85%;
+        width: 65%;
         border-radius: 100px;
         padding: 14px;
     }
@@ -525,6 +484,9 @@ margin-left: 100px;
         -moz-border-radius: 100px;
         -ms-border-radius: 100px;
         -o-border-radius: 100px;
+}
+.country{
+    width: 75% !important;
 }
 
 
@@ -580,9 +542,6 @@ margin-left: 100px;
     .con h1{
         font-size: 40px;
     }
-    .description {
-        width: 90%;
-    }
     .row{
         flex-direction: column;
     }
@@ -609,7 +568,7 @@ margin-left: 100px;
     .bgcurve{
         top:700px;
     }
-    .join{
+    .akjoin{
         width:120%;
         font-weight: 600 !important;
         background-color: #E8962F !important;
@@ -630,7 +589,7 @@ margin-left: 100px;
         padding: 20px;
         width: 100%;
     }
-    .column{
+    .akcolumn{
         margin:10px;
     }
     .column2 h1{
@@ -725,7 +684,7 @@ margin-left: 100px;
     .bgcurve{
         top:700px;
     }
-    .join{
+    .akjoin{
         width:120%;
         font-weight: 600 !important;
         background-color: #E8962F !important;
@@ -746,7 +705,7 @@ margin-left: 100px;
         padding: 20px;
         width: 100%;
     }
-    .column{
+    .akcolumn{
         margin:10px;
     }
     .column2 h1{
@@ -802,8 +761,8 @@ margin-left: 100px;
     width: 99999px;
   }
   
-  .card {
-    /* Add shadows to create the "card" effect */
+  .akPcard {
+    /* Add shadows to create the "akPcard" effect */
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background: #fff;
@@ -813,22 +772,22 @@ margin-left: 100px;
     margin: 15px 7.5px;
   }
   
-  .card:hover {
+  .akPcard:hover {
     -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
   
-  .card .container{
+  .akPcard .container{
     padding: 20px;
     background-color: #000000;
   }
-  .card .container h4{
+  .akPcard .container h4{
     color: #f1f1f1;
     font-size: 1.1rem;
     font-weight: 200 !important;
   }
-  .card .img {
+  .akPcard .img {
     max-width: 220px;
     height: 220px;
     display: inline-block;
