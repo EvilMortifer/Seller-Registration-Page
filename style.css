@@ -219,7 +219,7 @@ body{
  .akreviewheading{
     margin: 75px;
     margin-bottom: 10px;
-    color: #f1f1f1;
+    color: #202020;
  }  
  .akreviewheading h2{
     font-size: 2.3rem;
@@ -303,7 +303,7 @@ body{
     color: #0f0f0f;
 }
 .inactive{
-    color: #f1f1f1;
+    color: #202020;
 }
 
 
@@ -315,7 +315,7 @@ body{
 
 .akcontainer5{
     display: flex;
-    color: #f1f1f1;
+    color: #202020;
 }
 .akformbody{
     flex:0.99;
@@ -336,7 +336,7 @@ body{
     margin-top: 10px;
     border: 7px solid #E8962F;
     background-color: transparent;
-    color: #f1f1f1;
+    color: #202020;
     width: 150%;
     border-radius: 100px;
     padding: 14px;
@@ -366,6 +366,7 @@ body{
 }
 .country{
     width: 180% !important;
+    height: 70px !important;
 }
 .akcity,
 .akstate {
@@ -431,7 +432,7 @@ body{
         margin-top: 10px;
         border: 5px solid #E8962F;
         background-color: transparent;
-        color: #f1f1f1;
+        color: #202020;
         width: 65%;
         border-radius: 100px;
         padding: 14px;
@@ -486,9 +487,11 @@ body{
         -o-border-radius: 100px;
 }
 .country{
-    width: 75% !important;
+    width: 11% !important;
 }
-
+.akcity{
+    width: 60% !important;
+}
 
 
 
@@ -501,7 +504,7 @@ body{
     }
     .akcontainer4{
         padding: 60px;
-        width: 72%;
+        width: 100%;
         overflow: hidden;
         flex-direction: column;
         overflow: hidden;
@@ -748,7 +751,9 @@ body{
     justify-content: space-between;
     padding: 4px 16px;
   }
-  
+  .akcontainer7 h4{
+    color: #f1f1f1 !important;
+  }
   #cards-container {
     overflow: hidden;
     margin: 20px;
@@ -783,7 +788,7 @@ body{
     background-color: #000000;
   }
   .akPcard .container h4{
-    color: #f1f1f1;
+    color: #202020;
     font-size: 1.1rem;
     font-weight: 200 !important;
   }
@@ -806,7 +811,7 @@ body{
   
   .slide-left,
   .slide-right {
-    border-color: #fff;
+    border-color: #1d1b1b;
     border-style: solid;
     height: 20px;
     width: 20px;
@@ -828,7 +833,7 @@ body{
   }
   .aktextheaderbrand{
     padding-left: 35px;
-    color: #f1f1f1;
+    color: #242424;
     margin-top: 100px;
   }
   .aktextheaderbrand h2{
