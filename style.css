@@ -312,11 +312,6 @@ body{
 
 
 
-
-.akcontainer5{
-    display: flex;
-    color: #202020;
-}
 .akformbody{
     flex:0.99;
 }
@@ -329,7 +324,7 @@ body{
 }
 .form1{
     display: flex;
-    flex: 10;
+    justify-content: start;
     font-size: 20px;
 }
 #akformcontrol{
@@ -337,12 +332,13 @@ body{
     border: 7px solid #E8962F;
     background-color: transparent;
     color: #202020;
-    width: 150%;
+    width: 100%;
     border-radius: 100px;
     padding: 14px;
+    font-size: 15px !important;
 }
 .akc1{
-    margin-right: 200px;
+    padding-right: 150px;
 }
 .akcolumn{
     margin-bottom: 17px;
@@ -357,7 +353,7 @@ body{
 }
 .akformsubmit{
     padding: 20px;
-    width: 80%;
+    width: 60%;
     border-radius: 100px;
     cursor: pointer;
     background-color: #E8962F;
@@ -365,17 +361,19 @@ body{
     font-weight: 500;
 }
 .country{
-    width: 180% !important;
-    height: 70px !important;
+    height: 60px !important;
 }
 .akcity,
-.akstate {
+.akstate,
+.akcountry{
     width: 550% !important;
 }
 .countryOption{
     color: #000000 !important;
 }
-
+.ak-bg-img img{
+    width: 100% !important;
+}
 
 
 
@@ -423,22 +421,17 @@ body{
     .akbgimg img{
         width: 66vh;
     }
-    .akcontainer5{
-        flex-direction: column;
-        flex: 7 !important;
-        overflow: hidden;
-    }
     #akformcontrol{
-        margin-top: 10px;
+        margin-top: 7px;
         border: 5px solid #E8962F;
         background-color: transparent;
         color: #202020;
-        width: 65%;
+        width: 100% !important;
         border-radius: 100px;
         padding: 14px;
     }
     .info1{
-        color: #E8962F;
+        color: #E8962F !important;
     }
     .info2{
         font-size: 1rem;
@@ -486,14 +479,17 @@ body{
         -ms-border-radius: 100px;
         -o-border-radius: 100px;
 }
-.country{
-    width: 11% !important;
+.akstate,
+.akcountry{
+    width: 205% !important;
 }
 .akcity{
-    width: 60% !important;
+    width: 505% !important;
 }
 
-
+.akc1{
+    padding-right: 0px;
+}
 
 
 /* USer review mobile version*/
